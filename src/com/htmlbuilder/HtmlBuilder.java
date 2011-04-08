@@ -1,388 +1,389 @@
 package com.htmlbuilder;
 
 import com.htmlbuilder.elements.ComposedElement;
+import com.htmlbuilder.elements.Element;
 import com.htmlbuilder.elements.ElementType;
 import com.htmlbuilder.elements.EmptyElement;
+import com.htmlbuilder.elements.TextElement;
 
 public class HtmlBuilder {
 
-	public ComposedElement a(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.a, innerElements);
+	public ComposedElement a(Element... innerElements) {
+		return new ComposedElement(ElementType.a, innerElements);
 	}
 
-	public ComposedElement abbr(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.abbr, innerElements);
+	public ComposedElement abbr(Element... innerElements) {
+		return new ComposedElement(ElementType.abbr, innerElements);
 	}
 
-	public ComposedElement acronym(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.acronym, innerElements);
+	public ComposedElement acronym(Element... innerElements) {
+		return new ComposedElement(ElementType.acronym, innerElements);
 	}
 
-	public ComposedElement address(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.address, innerElements);
+	public ComposedElement address(Element... innerElements) {
+		return new ComposedElement(ElementType.address, innerElements);
 	}
 
 	@Deprecated
-	public ComposedElement applet(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.applet, innerElements);
+	public ComposedElement applet(Element... innerElements) {
+		return new ComposedElement(ElementType.applet, innerElements);
 	}
 
 	public EmptyElement area() {
-		return createEmptyElement(ElementType.area);
+		return new EmptyElement(ElementType.area);
 	}
 
-	public ComposedElement b(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.b, innerElements);
+	public ComposedElement b(Element... innerElements) {
+		return new ComposedElement(ElementType.b, innerElements);
 	}
 
 	public EmptyElement base() {
-		return createEmptyElement(ElementType.base);
+		return new EmptyElement(ElementType.base);
 	}
 
 	@Deprecated
 	public EmptyElement basefont() {
-		return createEmptyElement(ElementType.basefont);
+		return new EmptyElement(ElementType.basefont);
 	}
 
-	public ComposedElement bdo(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.bdo, innerElements);
+	public ComposedElement bdo(Element... innerElements) {
+		return new ComposedElement(ElementType.bdo, innerElements);
 	}
 
-	public ComposedElement big(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.big, innerElements);
+	public ComposedElement big(Element... innerElements) {
+		return new ComposedElement(ElementType.big, innerElements);
 	}
 
-	public ComposedElement blockquote(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.blockquote, innerElements);
+	public ComposedElement blockquote(Element... innerElements) {
+		return new ComposedElement(ElementType.blockquote, innerElements);
 	}
 
-	public ComposedElement body(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.body, innerElements);
+	public ComposedElement body(Element... innerElements) {
+		return new ComposedElement(ElementType.body, innerElements);
 	}
 
 	public EmptyElement br() {
-		return createEmptyElement(ElementType.br);
+		return new EmptyElement(ElementType.br);
 	}
 
-	public ComposedElement button(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.button, innerElements);
+	public ComposedElement button(Element... innerElements) {
+		return new ComposedElement(ElementType.button, innerElements);
 	}
 
-	public ComposedElement caption(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.caption, innerElements);
+	public ComposedElement caption(Element... innerElements) {
+		return new ComposedElement(ElementType.caption, innerElements);
 	}
 
 	@Deprecated
-	public ComposedElement center(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.center, innerElements);
+	public ComposedElement center(Element... innerElements) {
+		return new ComposedElement(ElementType.center, innerElements);
 	}
 
-	public ComposedElement cite(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.cite, innerElements);
+	public ComposedElement cite(Element... innerElements) {
+		return new ComposedElement(ElementType.cite, innerElements);
 	}
 
-	public ComposedElement code(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.code, innerElements);
+	public ComposedElement code(Element... innerElements) {
+		return new ComposedElement(ElementType.code, innerElements);
 	}
 
 	public EmptyElement col() {
-		return createEmptyElement(ElementType.col);
+		return new EmptyElement(ElementType.col);
 	}
 
-	public ComposedElement colgroup(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.colgroup, innerElements);
+	public ComposedElement colgroup(Element... innerElements) {
+		return new ComposedElement(ElementType.colgroup, innerElements);
 	}
 
-	public ComposedElement dd(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.dd, innerElements);
+	public ComposedElement dd(Element... innerElements) {
+		return new ComposedElement(ElementType.dd, innerElements);
 	}
 
-	public ComposedElement del(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.del, innerElements);
+	public ComposedElement del(Element... innerElements) {
+		return new ComposedElement(ElementType.del, innerElements);
 	}
 
-	public ComposedElement dfn(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.dfn, innerElements);
-	}
-
-	@Deprecated
-	public ComposedElement dir(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.dir, innerElements);
-	}
-
-	public ComposedElement div(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.div, innerElements);
-	}
-
-	public ComposedElement dl(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.dl, innerElements);
-	}
-
-	public ComposedElement dt(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.dt, innerElements);
-	}
-
-	public ComposedElement em(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.em, innerElements);
-	}
-
-	public ComposedElement fieldset(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.fieldset, innerElements);
+	public ComposedElement dfn(Element... innerElements) {
+		return new ComposedElement(ElementType.dfn, innerElements);
 	}
 
 	@Deprecated
-	public ComposedElement font(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.font, innerElements);
+	public ComposedElement dir(Element... innerElements) {
+		return new ComposedElement(ElementType.dir, innerElements);
 	}
 
-	public ComposedElement form(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.form, innerElements);
+	public ComposedElement div(Element... innerElements) {
+		return new ComposedElement(ElementType.div, innerElements);
+	}
+
+	public ComposedElement dl(Element... innerElements) {
+		return new ComposedElement(ElementType.dl, innerElements);
+	}
+
+	public ComposedElement dt(Element... innerElements) {
+		return new ComposedElement(ElementType.dt, innerElements);
+	}
+
+	public ComposedElement em(Element... innerElements) {
+		return new ComposedElement(ElementType.em, innerElements);
+	}
+
+	public ComposedElement fieldset(Element... innerElements) {
+		return new ComposedElement(ElementType.fieldset, innerElements);
+	}
+
+	@Deprecated
+	public ComposedElement font(Element... innerElements) {
+		return new ComposedElement(ElementType.font, innerElements);
+	}
+
+	public ComposedElement form(Element... innerElements) {
+		return new ComposedElement(ElementType.form, innerElements);
 	}
 
 	public EmptyElement frame() {
-		return createEmptyElement(ElementType.frame);
+		return new EmptyElement(ElementType.frame);
 	}
 
-	public ComposedElement frameset(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.frameset, innerElements);
+	public ComposedElement frameset(Element... innerElements) {
+		return new ComposedElement(ElementType.frameset, innerElements);
 	}
 
-	public ComposedElement h1(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.h1, innerElements);
+	public ComposedElement h1(Element... innerElements) {
+		return new ComposedElement(ElementType.h1, innerElements);
 	}
 
-	public ComposedElement h2(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.h2, innerElements);
+	public ComposedElement h2(Element... innerElements) {
+		return new ComposedElement(ElementType.h2, innerElements);
 	}
 
-	public ComposedElement h3(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.h3, innerElements);
+	public ComposedElement h3(Element... innerElements) {
+		return new ComposedElement(ElementType.h3, innerElements);
 	}
 
-	public ComposedElement h4(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.h4, innerElements);
+	public ComposedElement h4(Element... innerElements) {
+		return new ComposedElement(ElementType.h4, innerElements);
 	}
 
-	public ComposedElement h5(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.h5, innerElements);
+	public ComposedElement h5(Element... innerElements) {
+		return new ComposedElement(ElementType.h5, innerElements);
 	}
 
-	public ComposedElement h6(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.h6, innerElements);
+	public ComposedElement h6(Element... innerElements) {
+		return new ComposedElement(ElementType.h6, innerElements);
 	}
 
-	public ComposedElement head(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.head, innerElements);
+	public ComposedElement head(Element... innerElements) {
+		return new ComposedElement(ElementType.head, innerElements);
 	}
 
 	public EmptyElement hr() {
-		return createEmptyElement(ElementType.hr);
+		return new EmptyElement(ElementType.hr);
 	}
 
-	public ComposedElement html(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.html, innerElements);
+	public ComposedElement html(Element... innerElements) {
+		return new ComposedElement(ElementType.html, innerElements);
 	}
 
-	public ComposedElement i(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.i, innerElements);
+	public ComposedElement i(Element... innerElements) {
+		return new ComposedElement(ElementType.i, innerElements);
 	}
 
-	public ComposedElement iframe(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.iframe, innerElements);
+	public ComposedElement iframe(Element... innerElements) {
+		return new ComposedElement(ElementType.iframe, innerElements);
 	}
 
 	public EmptyElement img() {
-		return createEmptyElement(ElementType.img);
+		return new EmptyElement(ElementType.img);
 	}
 
 	public EmptyElement input() {
-		return createEmptyElement(ElementType.input);
+		return new EmptyElement(ElementType.input);
 	}
 
-	public ComposedElement ins(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.ins, innerElements);
+	public ComposedElement ins(Element... innerElements) {
+		return new ComposedElement(ElementType.ins, innerElements);
 	}
 
 	@Deprecated
 	public EmptyElement isindex() {
-		return createEmptyElement(ElementType.isindex);
+		return new EmptyElement(ElementType.isindex);
 	}
 
-	public ComposedElement kbd(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.kbd, innerElements);
+	public ComposedElement kbd(Element... innerElements) {
+		return new ComposedElement(ElementType.kbd, innerElements);
 	}
 
-	public ComposedElement label(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.label, innerElements);
+	public ComposedElement label(Element... innerElements) {
+		return new ComposedElement(ElementType.label, innerElements);
 	}
 
-	public ComposedElement legend(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.legend, innerElements);
+	public ComposedElement legend(Element... innerElements) {
+		return new ComposedElement(ElementType.legend, innerElements);
 	}
 
-	public ComposedElement li(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.li, innerElements);
+	public ComposedElement li(Element... innerElements) {
+		return new ComposedElement(ElementType.li, innerElements);
 	}
 
 	public EmptyElement link() {
-		return createEmptyElement(ElementType.link);
+		return new EmptyElement(ElementType.link);
 	}
 
-	public ComposedElement map(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.map, innerElements);
+	public ComposedElement map(Element... innerElements) {
+		return new ComposedElement(ElementType.map, innerElements);
 	}
 
 	@Deprecated
-	public ComposedElement menu(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.menu, innerElements);
+	public ComposedElement menu(Element... innerElements) {
+		return new ComposedElement(ElementType.menu, innerElements);
 	}
 
 	public EmptyElement meta() {
-		return createEmptyElement(ElementType.meta);
+		return new EmptyElement(ElementType.meta);
 	}
 
-	public ComposedElement noframes(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.noframes, innerElements);
+	public ComposedElement noframes(Element... innerElements) {
+		return new ComposedElement(ElementType.noframes, innerElements);
 	}
 
-	public ComposedElement noscript(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.noscript, innerElements);
+	public ComposedElement noscript(Element... innerElements) {
+		return new ComposedElement(ElementType.noscript, innerElements);
 	}
 
-	public ComposedElement object(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.object, innerElements);
+	public ComposedElement object(Element... innerElements) {
+		return new ComposedElement(ElementType.object, innerElements);
 	}
 
-	public ComposedElement ol(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.ol, innerElements);
+	public ComposedElement ol(Element... innerElements) {
+		return new ComposedElement(ElementType.ol, innerElements);
 	}
 
-	public ComposedElement optgroup(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.optgroup, innerElements);
+	public ComposedElement optgroup(Element... innerElements) {
+		return new ComposedElement(ElementType.optgroup, innerElements);
 	}
 
-	public ComposedElement option(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.option, innerElements);
+	public ComposedElement option(Element... innerElements) {
+		return new ComposedElement(ElementType.option, innerElements);
 	}
 
-	public ComposedElement p(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.p, innerElements);
+	public ComposedElement p(Element... innerElements) {
+		return new ComposedElement(ElementType.p, innerElements);
 	}
 
 	public EmptyElement param() {
-		return createEmptyElement(ElementType.param);
+		return new EmptyElement(ElementType.param);
 	}
 
-	public ComposedElement pre(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.pre, innerElements);
+	public ComposedElement pre(Element... innerElements) {
+		return new ComposedElement(ElementType.pre, innerElements);
 	}
 
-	public ComposedElement q(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.q, innerElements);
-	}
-
-	public ComposedElement s(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.s, innerElements);
-	}
-
-	public ComposedElement samp(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.samp, innerElements);
-	}
-
-	public ComposedElement script(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.script, innerElements);
-	}
-
-	public ComposedElement select(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.select, innerElements);
-	}
-
-	public ComposedElement small(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.small, innerElements);
-	}
-
-	public ComposedElement span(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.span, innerElements);
-	}
-
-	public ComposedElement strike(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.strike, innerElements);
-	}
-
-	public ComposedElement strong(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.strong, innerElements);
-	}
-
-	public ComposedElement style(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.style, innerElements);
-	}
-
-	public ComposedElement sub(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.sub, innerElements);
-	}
-
-	public ComposedElement sup(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.sup, innerElements);
-	}
-
-	public ComposedElement table(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.table, innerElements);
-	}
-
-	public ComposedElement tbody(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.tbody, innerElements);
-	}
-
-	public ComposedElement td(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.td, innerElements);
-	}
-
-	public ComposedElement textarea(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.textarea, innerElements);
-	}
-
-	public ComposedElement tfoot(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.tfoot, innerElements);
-	}
-
-	public ComposedElement th(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.th, innerElements);
-	}
-
-	public ComposedElement thead(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.thead, innerElements);
-	}
-
-	public ComposedElement title(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.title, innerElements);
-	}
-
-	public ComposedElement tr(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.tr, innerElements);
-	}
-
-	public ComposedElement tt(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.tt, innerElements);
+	public ComposedElement q(Element... innerElements) {
+		return new ComposedElement(ElementType.q, innerElements);
 	}
 
 	@Deprecated
-	public ComposedElement u(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.u, innerElements);
+	public ComposedElement s(Element... innerElements) {
+		return new ComposedElement(ElementType.s, innerElements);
 	}
 
-	public ComposedElement ul(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.ul, innerElements);
+	public ComposedElement samp(Element... innerElements) {
+		return new ComposedElement(ElementType.samp, innerElements);
 	}
 
-	public ComposedElement var(EmptyElement... innerElements) {
-		return createComposedElement(ElementType.var, innerElements);
+	public ComposedElement script(Element... innerElements) {
+		return new ComposedElement(ElementType.script, innerElements);
 	}
 
-	private ComposedElement createComposedElement(ElementType tag, EmptyElement... innerElements) {
-		return new ComposedElement(tag, innerElements);
+	public ComposedElement select(Element... innerElements) {
+		return new ComposedElement(ElementType.select, innerElements);
 	}
 
-	private EmptyElement createEmptyElement(ElementType tag) {
-		return new EmptyElement(tag);
+	public ComposedElement small(Element... innerElements) {
+		return new ComposedElement(ElementType.small, innerElements);
 	}
+
+	public ComposedElement span(Element... innerElements) {
+		return new ComposedElement(ElementType.span, innerElements);
+	}
+
+	@Deprecated
+	public ComposedElement strike(Element... innerElements) {
+		return new ComposedElement(ElementType.strike, innerElements);
+	}
+
+	public ComposedElement strong(Element... innerElements) {
+		return new ComposedElement(ElementType.strong, innerElements);
+	}
+
+	public ComposedElement style(Element... innerElements) {
+		return new ComposedElement(ElementType.style, innerElements);
+	}
+
+	public ComposedElement sub(Element... innerElements) {
+		return new ComposedElement(ElementType.sub, innerElements);
+	}
+
+	public ComposedElement sup(Element... innerElements) {
+		return new ComposedElement(ElementType.sup, innerElements);
+	}
+
+	public ComposedElement table(Element... innerElements) {
+		return new ComposedElement(ElementType.table, innerElements);
+	}
+
+	public ComposedElement tbody(Element... innerElements) {
+		return new ComposedElement(ElementType.tbody, innerElements);
+	}
+
+	public ComposedElement td(Element... innerElements) {
+		return new ComposedElement(ElementType.td, innerElements);
+	}
+
+	public ComposedElement textarea(Element... innerElements) {
+		return new ComposedElement(ElementType.textarea, innerElements);
+	}
+
+	public ComposedElement tfoot(Element... innerElements) {
+		return new ComposedElement(ElementType.tfoot, innerElements);
+	}
+
+	public ComposedElement th(Element... innerElements) {
+		return new ComposedElement(ElementType.th, innerElements);
+	}
+
+	public ComposedElement thead(Element... innerElements) {
+		return new ComposedElement(ElementType.thead, innerElements);
+	}
+
+	public ComposedElement title(Element... innerElements) {
+		return new ComposedElement(ElementType.title, innerElements);
+	}
+
+	public ComposedElement tr(Element... innerElements) {
+		return new ComposedElement(ElementType.tr, innerElements);
+	}
+
+	public ComposedElement tt(Element... innerElements) {
+		return new ComposedElement(ElementType.tt, innerElements);
+	}
+
+	@Deprecated
+	public ComposedElement u(Element... innerElements) {
+		return new ComposedElement(ElementType.u, innerElements);
+	}
+
+	public ComposedElement ul(Element... innerElements) {
+		return new ComposedElement(ElementType.ul, innerElements);
+	}
+
+	public ComposedElement var(Element... innerElements) {
+		return new ComposedElement(ElementType.var, innerElements);
+	}
+
+	public TextElement text(String content) {
+		return new TextElement(content);
+	}
+
 }

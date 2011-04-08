@@ -19,8 +19,12 @@ public class HtmlBuilderTest {
 						builder.div(
 								builder.table(
 										builder.tr(
-												builder.td(),
-												builder.td(),
+												builder.td(
+														builder.text("TD1")
+												),
+												builder.td(
+														builder.text("TD2")
+												),
 												builder.td()
 										),
 										builder.tr(
@@ -40,6 +44,6 @@ public class HtmlBuilderTest {
 				)
 		);
 		
-		Assert.assertEquals(first.toHtml(), "<html><head><script src=\"script.js\"></script></head><body><div id=\"content\" class=\"maincontent\"><table><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></table></div><br/><div></div></body></html>");
+		Assert.assertEquals(first.toHtml(), "<html><head><script src=\"script.js\"></script></head><body><div id=\"content\" class=\"maincontent\"><table><tr><td>TD1</td><td>TD2</td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></table></div><br/><div></div></body></html>");
 	}
 }

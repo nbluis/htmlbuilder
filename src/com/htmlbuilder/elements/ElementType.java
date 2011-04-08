@@ -1,16 +1,16 @@
 package com.htmlbuilder.elements;
 
 /**
- * Reference based on html 4 tag reference.
- * For more information http://www.w3.org/TR/html4/index/elements.html.
- */
+  * Reference based on html 4 tag reference.
+  * For more information http://www.w3.org/TR/html4/index/elements.html. 
+  */
 public enum ElementType {
 	/**
-	 * anchor
+	 * a
 	 */
 	a,
 	/**
-	 * abbreviated form (e.g., WWW, HTTP, etc.)
+	 * abbr
 	 */
 	abbr,
 	/**
@@ -18,310 +18,303 @@ public enum ElementType {
 	 */
 	acronym,
 	/**
-	 * information on author
+	 * address
 	 */
 	address,
 	/**
-	 * Java applet
+	 * applet
 	 */
-	@Deprecated
 	applet,
 	/**
-	 * client-side image map area
+	 * area
 	 */
 	area,
 	/**
-	 * bold text style
+	 * b
 	 */
 	b,
 	/**
-	 * document base URI
+	 * base
 	 */
 	base,
 	/**
-	 * base font size
+	 * basefont
 	 */
-	@Deprecated
 	basefont,
 	/**
-	 * I18N BiDi over-ride
+	 * bdo
 	 */
 	bdo,
 	/**
-	 * large text style
+	 * big
 	 */
 	big,
 	/**
-	 * long quotation
+	 * blockquote
 	 */
 	blockquote,
 	/**
-	 * document body
+	 * body
 	 */
 	body,
 	/**
-	 * forced line break
+	 * br
 	 */
 	br,
 	/**
-	 * push button
+	 * button
 	 */
 	button,
 	/**
-	 * table caption
+	 * caption
 	 */
 	caption,
 	/**
-	 * shorthand for DIV align=center
+	 * center
 	 */
-	@Deprecated
 	center,
 	/**
-	 * citation
+	 * cite
 	 */
 	cite,
 	/**
-	 * computer code fragment
+	 * code
 	 */
 	code,
 	/**
-	 * table column
+	 * col
 	 */
 	col,
 	/**
-	 * table column group
+	 * colgroup
 	 */
 	colgroup,
 	/**
-	 * definition description
+	 * dd
 	 */
 	dd,
 	/**
-	 * deleted text
+	 * del
 	 */
 	del,
 	/**
-	 * instance definition
+	 * dfn
 	 */
 	dfn,
 	/**
-	 * directory list
+	 * dir
 	 */
-	@Deprecated
 	dir,
 	/**
-	 * generic language/style container
+	 * div
 	 */
 	div,
 	/**
-	 * definition list
+	 * dl
 	 */
 	dl,
 	/**
-	 * definition term
+	 * dt
 	 */
 	dt,
 	/**
-	 * emphasis
+	 * em
 	 */
 	em,
 	/**
-	 * form control group
+	 * fieldset
 	 */
 	fieldset,
 	/**
-	 * local change to font
+	 * font
 	 */
-	@Deprecated
 	font,
 	/**
-	 * interactive form
+	 * form
 	 */
 	form,
 	/**
-	 * subwindow
+	 * frame
 	 */
 	frame,
 	/**
-	 * window subdivision
+	 * frameset
 	 */
 	frameset,
 	/**
-	 * heading
+	 * h1
 	 */
 	h1,
 	/**
-	 * heading
+	 * h2
 	 */
 	h2,
 	/**
-	 * heading
+	 * h3
 	 */
 	h3,
 	/**
-	 * heading
+	 * h4
 	 */
 	h4,
 	/**
-	 * heading
+	 * h5
 	 */
 	h5,
 	/**
-	 * heading
+	 * h6
 	 */
 	h6,
 	/**
-	 * document head
+	 * head
 	 */
 	head,
 	/**
-	 * horizontal rule
+	 * hr
 	 */
 	hr,
 	/**
-	 * document root element
+	 * html
 	 */
 	html,
 	/**
-	 * italic text style
+	 * i
 	 */
 	i,
 	/**
-	 * inline subwindow
+	 * iframe
 	 */
 	iframe,
 	/**
-	 * Embedded image
+	 * img
 	 */
 	img,
 	/**
-	 * form control
+	 * input
 	 */
 	input,
 	/**
-	 * inserted text
+	 * ins
 	 */
 	ins,
 	/**
-	 * single line prompt
+	 * isindex
 	 */
-	@Deprecated
 	isindex,
 	/**
-	 * text to be entered by the user
+	 * kbd
 	 */
 	kbd,
 	/**
-	 * form field label text
+	 * label
 	 */
 	label,
 	/**
-	 * fieldset legend
+	 * legend
 	 */
 	legend,
 	/**
-	 * list item
+	 * li
 	 */
 	li,
 	/**
-	 * a media-independent link
+	 * link
 	 */
 	link,
 	/**
-	 * client-side image map
+	 * map
 	 */
 	map,
 	/**
-	 * menu list
+	 * menu
 	 */
-	@Deprecated
 	menu,
 	/**
-	 * generic metainformation
+	 * meta
 	 */
 	meta,
 	/**
-	 * alternate content container for non frame-based rendering
+	 * noframes
 	 */
 	noframes,
 	/**
-	 * alternate content container for non script-based rendering
+	 * noscript
 	 */
 	noscript,
 	/**
-	 * generic embedded object
+	 * object
 	 */
 	object,
 	/**
-	 * ordered list
+	 * ol
 	 */
 	ol,
 	/**
-	 * option group
+	 * optgroup
 	 */
 	optgroup,
 	/**
-	 * selectable choice
+	 * option
 	 */
 	option,
 	/**
-	 * paragraph
+	 * p
 	 */
 	p,
 	/**
-	 * named property value
+	 * param
 	 */
 	param,
 	/**
-	 * preformatted text
+	 * pre
 	 */
 	pre,
 	/**
-	 * short inline quotation
+	 * q
 	 */
 	q,
 	/**
-	 * strike-through text style
+	 * s
 	 */
 	s,
 	/**
-	 * sample program output, scripts, etc.
+	 * samp
 	 */
 	samp,
 	/**
-	 * script statements
+	 * script
 	 */
 	script,
 	/**
-	 * option selector
+	 * select
 	 */
 	select,
 	/**
-	 * small text style
+	 * small
 	 */
 	small,
 	/**
-	 * generic language/style container
+	 * span
 	 */
 	span,
 	/**
-	 * strike-through text
+	 * strike
 	 */
 	strike,
 	/**
-	 * strong emphasis
+	 * strong
 	 */
 	strong,
 	/**
-	 * style info
+	 * style
 	 */
 	style,
 	/**
-	 * subscript
+	 * sub
 	 */
 	sub,
 	/**
-	 * superscript
+	 * sup
 	 */
 	sup,
 	/**
@@ -329,53 +322,52 @@ public enum ElementType {
 	 */
 	table,
 	/**
-	 * table body
+	 * tbody
 	 */
 	tbody,
 	/**
-	 * table data cell
+	 * td
 	 */
 	td,
 	/**
-	 * multi-line text field
+	 * textarea
 	 */
 	textarea,
 	/**
-	 * table footer
+	 * tfoot
 	 */
 	tfoot,
 	/**
-	 * table header cell
+	 * th
 	 */
 	th,
 	/**
-	 * table header
+	 * thead
 	 */
 	thead,
 	/**
-	 * document title
+	 * title
 	 */
 	title,
 	/**
-	 * table row
+	 * tr
 	 */
 	tr,
 	/**
-	 * teletype or monospaced text style
+	 * tt
 	 */
 	tt,
 	/**
-	 * underlined text style
+	 * u
 	 */
-	@Deprecated
 	u,
 	/**
-	 * unordered list
+	 * ul
 	 */
 	ul,
 	/**
-	 * instance of a variable or program argument
+	 * var
 	 */
-	var;
+	var,
 
 }
