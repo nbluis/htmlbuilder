@@ -1,0 +1,91 @@
+A 	  	  	  	  	  	anchor
+ABBR 	  	  	  	  	  	abbreviated form (e.g., WWW, HTTP, etc.)
+ACRONYM 	  	  	  	  	  	 
+ADDRESS 	  	  	  	  	  	information on author
+APPLET 	  	  	  	D 	L 	Java applet
+AREA 	  	F 	E 	  	  	client-side image map area
+B 	  	  	  	  	  	bold text style
+BASE 	  	F 	E 	  	  	document base URI
+BASEFONT 	  	F 	E 	D 	L 	base font size
+BDO 	  	  	  	  	  	I18N BiDi over-ride
+BIG 	  	  	  	  	  	large text style
+BLOCKQUOTE 	  	  	  	  	  	long quotation
+BODY 	O 	O 	  	  	  	document body
+BR 	  	F 	E 	  	  	forced line break
+BUTTON 	  	  	  	  	  	push button
+CAPTION 	  	  	  	  	  	table caption
+CENTER 	  	  	  	D 	L 	shorthand for DIV align=center
+CITE 	  	  	  	  	  	citation
+CODE 	  	  	  	  	  	computer code fragment
+COL 	  	F 	E 	  	  	table column
+COLGROUP 	  	O 	  	  	  	table column group
+DD 	  	O 	  	  	  	definition description
+DEL 	  	  	  	  	  	deleted text
+DFN 	  	  	  	  	  	instance definition
+DIR 	  	  	  	D 	L 	directory list
+DIV 	  	  	  	  	  	generic language/style container
+DL 	  	  	  	  	  	definition list
+DT 	  	O 	  	  	  	definition term
+EM 	  	  	  	  	  	emphasis
+FIELDSET 	  	  	  	  	  	form control group
+FONT 	  	  	  	D 	L 	local change to font
+FORM 	  	  	  	  	  	interactive form
+FRAME 	  	F 	E 	  	F 	subwindow
+FRAMESET 	  	  	  	  	F 	window subdivision
+H1 	  	  	  	  	  	heading
+H2 	  	  	  	  	  	heading
+H3 	  	  	  	  	  	heading
+H4 	  	  	  	  	  	heading
+H5 	  	  	  	  	  	heading
+H6 	  	  	  	  	  	heading
+HEAD 	O 	O 	  	  	  	document head
+HR 	  	F 	E 	  	  	horizontal rule
+HTML 	O 	O 	  	  	  	document root element
+I 	  	  	  	  	  	italic text style
+IFRAME 	  	  	  	  	L 	inline subwindow
+IMG 	  	F 	E 	  	  	Embedded image
+INPUT 	  	F 	E 	  	  	form control
+INS 	  	  	  	  	  	inserted text
+ISINDEX 	  	F 	E 	D 	L 	single line prompt
+KBD 	  	  	  	  	  	text to be entered by the user
+LABEL 	  	  	  	  	  	form field label text
+LEGEND 	  	  	  	  	  	fieldset legend
+LI 	  	O 	  	  	  	list item
+LINK 	  	F 	E 	  	  	a media-independent link
+MAP 	  	  	  	  	  	client-side image map
+MENU 	  	  	  	D 	L 	menu list
+META 	  	F 	E 	  	  	generic metainformation
+NOFRAMES 	  	  	  	  	F 	alternate content container for non frame-based rendering
+NOSCRIPT 	  	  	  	  	  	alternate content container for non script-based rendering
+OBJECT 	  	  	  	  	  	generic embedded object
+OL 	  	  	  	  	  	ordered list
+OPTGROUP 	  	  	  	  	  	option group
+OPTION 	  	O 	  	  	  	selectable choice
+P 	  	O 	  	  	  	paragraph
+PARAM 	  	F 	E 	  	  	named property value
+PRE 	  	  	  	  	  	preformatted text
+Q 	  	  	  	  	  	short inline quotation
+S 	  	  	  	D 	L 	strike-through text style
+SAMP 	  	  	  	  	  	sample program output, scripts, etc.
+SCRIPT 	  	  	  	  	  	script statements
+SELECT 	  	  	  	  	  	option selector
+SMALL 	  	  	  	  	  	small text style
+SPAN 	  	  	  	  	  	generic language/style container
+STRIKE 	  	  	  	D 	L 	strike-through text
+STRONG 	  	  	  	  	  	strong emphasis
+STYLE 	  	  	  	  	  	style info
+SUB 	  	  	  	  	  	subscript
+SUP 	  	  	  	  	  	superscript
+TABLE 	  	  	  	  	  	 
+TBODY 	O 	O 	  	  	  	table body
+TD 	  	O 	  	  	  	table data cell
+TEXTAREA 	  	  	  	  	  	multi-line text field
+TFOOT 	  	O 	  	  	  	table footer
+TH 	  	O 	  	  	  	table header cell
+THEAD 	  	O 	  	  	  	table header
+TITLE 	  	  	  	  	  	document title
+TR 	  	O 	  	  	  	table row
+TT 	  	  	  	  	  	teletype or monospaced text style
+U 	  	  	  	D 	L 	underlined text style
+UL 	  	  	  	  	  	unordered list
+VAR 	  	  	  	  	  	instance of a variable or program argument
