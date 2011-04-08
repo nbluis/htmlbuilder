@@ -6,11 +6,11 @@ package com.htmlbuilder.elements;
   */
 public enum ElementType {
 	/**
-	 * a
+	 * anchor
 	 */
 	a,
 	/**
-	 * abbr
+	 * abbreviated form (e.g., WWW, HTTP, etc.)
 	 */
 	abbr,
 	/**
@@ -18,303 +18,312 @@ public enum ElementType {
 	 */
 	acronym,
 	/**
-	 * address
+	 * information on author
 	 */
 	address,
 	/**
-	 * applet
+	 * Java applet
 	 */
+	@Deprecated
 	applet,
 	/**
-	 * area
+	 * client-side image map area
 	 */
 	area,
 	/**
-	 * b
+	 * bold text style
 	 */
 	b,
 	/**
-	 * base
+	 * document base URI
 	 */
 	base,
 	/**
-	 * basefont
+	 * base font size
 	 */
+	@Deprecated
 	basefont,
 	/**
-	 * bdo
+	 * I18N BiDi over-ride
 	 */
 	bdo,
 	/**
-	 * big
+	 * large text style
 	 */
 	big,
 	/**
-	 * blockquote
+	 * long quotation
 	 */
 	blockquote,
 	/**
-	 * body
+	 * document body
 	 */
 	body,
 	/**
-	 * br
+	 * forced line break
 	 */
 	br,
 	/**
-	 * button
+	 * push button
 	 */
 	button,
 	/**
-	 * caption
+	 * table caption
 	 */
 	caption,
 	/**
-	 * center
+	 * shorthand for DIV align=center
 	 */
+	@Deprecated
 	center,
 	/**
-	 * cite
+	 * citation
 	 */
 	cite,
 	/**
-	 * code
+	 * computer code fragment
 	 */
 	code,
 	/**
-	 * col
+	 * table column
 	 */
 	col,
 	/**
-	 * colgroup
+	 * table column group
 	 */
 	colgroup,
 	/**
-	 * dd
+	 * definition description
 	 */
 	dd,
 	/**
-	 * del
+	 * deleted text
 	 */
 	del,
 	/**
-	 * dfn
+	 * instance definition
 	 */
 	dfn,
 	/**
-	 * dir
+	 * directory list
 	 */
+	@Deprecated
 	dir,
 	/**
-	 * div
+	 * generic language/style container
 	 */
 	div,
 	/**
-	 * dl
+	 * definition list
 	 */
 	dl,
 	/**
-	 * dt
+	 * definition term
 	 */
 	dt,
 	/**
-	 * em
+	 * emphasis
 	 */
 	em,
 	/**
-	 * fieldset
+	 * form control group
 	 */
 	fieldset,
 	/**
-	 * font
+	 * local change to font
 	 */
+	@Deprecated
 	font,
 	/**
-	 * form
+	 * interactive form
 	 */
 	form,
 	/**
-	 * frame
+	 * subwindow
 	 */
 	frame,
 	/**
-	 * frameset
+	 * window subdivision
 	 */
 	frameset,
 	/**
-	 * h1
+	 * heading
 	 */
 	h1,
 	/**
-	 * h2
+	 * heading
 	 */
 	h2,
 	/**
-	 * h3
+	 * heading
 	 */
 	h3,
 	/**
-	 * h4
+	 * heading
 	 */
 	h4,
 	/**
-	 * h5
+	 * heading
 	 */
 	h5,
 	/**
-	 * h6
+	 * heading
 	 */
 	h6,
 	/**
-	 * head
+	 * document head
 	 */
 	head,
 	/**
-	 * hr
+	 * horizontal rule
 	 */
 	hr,
 	/**
-	 * html
+	 * document root element
 	 */
 	html,
 	/**
-	 * i
+	 * italic text style
 	 */
 	i,
 	/**
-	 * iframe
+	 * inline subwindow
 	 */
 	iframe,
 	/**
-	 * img
+	 * Embedded image
 	 */
 	img,
 	/**
-	 * input
+	 * form control
 	 */
 	input,
 	/**
-	 * ins
+	 * inserted text
 	 */
 	ins,
 	/**
-	 * isindex
+	 * single line prompt
 	 */
+	@Deprecated
 	isindex,
 	/**
-	 * kbd
+	 * text to be entered by the user
 	 */
 	kbd,
 	/**
-	 * label
+	 * form field label text
 	 */
 	label,
 	/**
-	 * legend
+	 * fieldset legend
 	 */
 	legend,
 	/**
-	 * li
+	 * list item
 	 */
 	li,
 	/**
-	 * link
+	 * a media-independent link
 	 */
 	link,
 	/**
-	 * map
+	 * client-side image map
 	 */
 	map,
 	/**
-	 * menu
+	 * menu list
 	 */
+	@Deprecated
 	menu,
 	/**
-	 * meta
+	 * generic metainformation
 	 */
 	meta,
 	/**
-	 * noframes
+	 * alternate content container for non frame-based rendering
 	 */
 	noframes,
 	/**
-	 * noscript
+	 * alternate content container for non script-based rendering
 	 */
 	noscript,
 	/**
-	 * object
+	 * generic embedded object
 	 */
 	object,
 	/**
-	 * ol
+	 * ordered list
 	 */
 	ol,
 	/**
-	 * optgroup
+	 * option group
 	 */
 	optgroup,
 	/**
-	 * option
+	 * selectable choice
 	 */
 	option,
 	/**
-	 * p
+	 * paragraph
 	 */
 	p,
 	/**
-	 * param
+	 * named property value
 	 */
 	param,
 	/**
-	 * pre
+	 * preformatted text
 	 */
 	pre,
 	/**
-	 * q
+	 * short inline quotation
 	 */
 	q,
 	/**
-	 * s
+	 * strike-through text style
 	 */
+	@Deprecated
 	s,
 	/**
-	 * samp
+	 * sample program output, scripts, etc.
 	 */
 	samp,
 	/**
-	 * script
+	 * script statements
 	 */
 	script,
 	/**
-	 * select
+	 * option selector
 	 */
 	select,
 	/**
-	 * small
+	 * small text style
 	 */
 	small,
 	/**
-	 * span
+	 * generic language/style container
 	 */
 	span,
 	/**
-	 * strike
+	 * strike-through text
 	 */
+	@Deprecated
 	strike,
 	/**
-	 * strong
+	 * strong emphasis
 	 */
 	strong,
 	/**
-	 * style
+	 * style info
 	 */
 	style,
 	/**
-	 * sub
+	 * subscript
 	 */
 	sub,
 	/**
-	 * sup
+	 * superscript
 	 */
 	sup,
 	/**
@@ -322,51 +331,52 @@ public enum ElementType {
 	 */
 	table,
 	/**
-	 * tbody
+	 * table body
 	 */
 	tbody,
 	/**
-	 * td
+	 * table data cell
 	 */
 	td,
 	/**
-	 * textarea
+	 * multi-line text field
 	 */
 	textarea,
 	/**
-	 * tfoot
+	 * table footer
 	 */
 	tfoot,
 	/**
-	 * th
+	 * table header cell
 	 */
 	th,
 	/**
-	 * thead
+	 * table header
 	 */
 	thead,
 	/**
-	 * title
+	 * document title
 	 */
 	title,
 	/**
-	 * tr
+	 * table row
 	 */
 	tr,
 	/**
-	 * tt
+	 * teletype or monospaced text style
 	 */
 	tt,
 	/**
-	 * u
+	 * underlined text style
 	 */
+	@Deprecated
 	u,
 	/**
-	 * ul
+	 * unordered list
 	 */
 	ul,
 	/**
-	 * var
+	 * instance of a variable or program argument
 	 */
 	var,
 

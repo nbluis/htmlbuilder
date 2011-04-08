@@ -12,6 +12,7 @@ BEGIN {
 	print "\t/**"
 	print "\t * " getDescription()
  	print "\t */"
+ 	if (isDeprecated()) print "\t@Deprecated"
  	print "\t" getName() ","
 }
 
@@ -20,13 +21,19 @@ END {
 }
 
 function getName() {
-	name = $1;
-	gsub(/ /, "", name);
-	return tolower(name); 
+	return tolower(trim($1)s); 
 }
 
 function getDescription() {
-	description = $7;
-	gsub(/ /, "", description);
-	return (length(text)) ? $7 : getName();
+	return (length(trim($7))) ? $7 : getName();
+}
+
+function isDeprecated() {
+	return trim($5) == "D";
+}
+
+function trim(value) {
+	newValue = value;
+	gsub(/ |\t/, "", newValue);
+	return newValue;
 }
